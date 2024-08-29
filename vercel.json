@@ -1,0 +1,17 @@
+{
+  "git": {
+    "deploymentEnabled": {
+      "okasha": false,
+      "sabahat": false,
+      "urwah": false,
+      "Umer": false,
+      "salman": false
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/cron/pending_ticket_update",
+      "schedule": "0 0 * * *"
+    }
+  ]
+}
